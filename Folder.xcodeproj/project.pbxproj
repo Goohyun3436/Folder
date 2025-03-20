@@ -13,6 +13,7 @@
 		F8CB38FD2D8BEAEE00E5F202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB38EF2D8BEAEE00E5F202 /* AppDelegate.swift */; };
 		F8CB38FE2D8BEAEE00E5F202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB38F62D8BEAEE00E5F202 /* SceneDelegate.swift */; };
 		F8CB38FF2D8BEAEE00E5F202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB38F72D8BEAEE00E5F202 /* ViewController.swift */; };
+		F8CB39052D8BEB5D00E5F202 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CB39042D8BEB5D00E5F202 /* Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F8CB38F42D8BEAEE00E5F202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8CB38F62D8BEAEE00E5F202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F8CB38F72D8BEAEE00E5F202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8CB39042D8BEB5D00E5F202 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F8CB38F82D8BEAEE00E5F202 /* Folder */ = {
 			isa = PBXGroup;
 			children = (
+				F8CB39032D8BEB5700E5F202 /* goo8 */,
 				F8CB38EF2D8BEAEE00E5F202 /* AppDelegate.swift */,
 				F8CB38F02D8BEAEE00E5F202 /* Assets.xcassets */,
 				F8CB38F12D8BEAEE00E5F202 /* Info.plist */,
@@ -65,6 +68,14 @@
 				F8CB38F72D8BEAEE00E5F202 /* ViewController.swift */,
 			);
 			path = Folder;
+			sourceTree = "<group>";
+		};
+		F8CB39032D8BEB5700E5F202 /* goo8 */ = {
+			isa = PBXGroup;
+			children = (
+				F8CB39042D8BEB5D00E5F202 /* Test.swift */,
+			);
+			path = goo8;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8CB38FD2D8BEAEE00E5F202 /* AppDelegate.swift in Sources */,
+				F8CB39052D8BEB5D00E5F202 /* Test.swift in Sources */,
 				F8CB38FE2D8BEAEE00E5F202 /* SceneDelegate.swift in Sources */,
 				F8CB38FF2D8BEAEE00E5F202 /* ViewController.swift in Sources */,
 			);
