@@ -13,8 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         print("Hello, goo1")
+        print("Hello, goo2")
     }
-
-
+    
 }
 
